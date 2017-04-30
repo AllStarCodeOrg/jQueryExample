@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--jQuery MUST be loaded, duh! I'm running it from a CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!--Some styling-->
+    <style>
+        body{
+            text-align: center;
+            background-color: black;
+            color:white;
+        }
+
+        img{
+        width:200px;    
+        }
+    </style>
+
+    <title>jQuery Example</title>
+</head>
+<body>
+    <!--first div-->
+    <div class="spicyMeme">
+        <h2>Find all div elements with $("div")</h2>
+        <p>This will find all "div" tags</p>
+        <img src="assets/meme1.jpg" alt="">
+        <hr>
+    </div>
+
+    <div class="spicyMeme">
+        <h2>Find all "spiceyMeme" class elements with $(".spicyMeme")</h2>
+        <p>This will find all elements with the class "spicyMeme"</p>
+        <img src="assets/meme2.jpg" alt="">
+        <hr>
+    </div>
+
+    <div id="lastMeme">
+        <h2>Find this div by it's ID with $("#lastMeme")</h2>
+        <p>This will find the element with the id "lastMeme"</p>
+        <img src="assets/meme3.jpg" alt="">
+    </div>
+</body>
+</html>
